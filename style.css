@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+body,html{
+  margin: 0;
+}
+
+.artist{
+  text-align: center;
+}
+
+.artist_img{
+  width: 50%;
+}
