@@ -11,7 +11,16 @@
 body,html{
   font-family: "Zen Maru Gothic",serif;
   margin: 0;
-  background-color: #1a411a;
+  background-color: #023d02;
+}
+
+div{
+  text-align: center;
+}
+
+h2{
+  color: white;
+  font-size: larger;
 }
 
 .artist{
