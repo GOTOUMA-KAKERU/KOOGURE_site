@@ -1,17 +1,20 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap');
 
-.zen-maru-gothic-regular {
-  font-family: "Zen Maru Gothic", serif;
-  font-weight: 400;
-  font-style: normal;
+@font-face {
+  font-family: "ForEnglish";
+  src: url("./font_english.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "ForJapanese";
+  src: url("./font_japanese.ttf") format("truetype");
+  font-display: swap;
 }
 
-
 body,html{
-  font-family: "Zen Maru Gothic",serif;
+  font-family: "ForEnglish","ForJapanese",serif;
   margin: 0;
-  background-color: #023d02;
+  background-color: #0C4E0B;
 }
 
 div{
@@ -19,7 +22,7 @@ div{
 }
 
 h2{
-  color: white;
+  color: #D18137;
   font-size: larger;
 }
 
@@ -34,12 +37,7 @@ h2{
   border-radius: 50%;
 }
 
-.artist_nsme{
-  color: white;
+.artist_name{
+  color: #D18137;
   margin: 0;
-}
-.artist_name_ja{
-  margin-top: 0;
-  color: white;
-  font-size: smaller;
 }
