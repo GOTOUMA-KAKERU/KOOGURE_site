@@ -31,6 +31,17 @@ h2{
 }
 
 .artist_name{
-  color: #D18137;
+  overflow-x: hidden;
+}
+
+.artist_name h1{
+  color: #366312;
   margin: 0;
+  animation: textAnime 1.5s .5s forwards ease-in-out;
+  transform: translateY(100%);
+}
+@keyframes textAnime {
+  to {
+      transform: translateY(0px);
+  }
 }
